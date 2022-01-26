@@ -2,7 +2,7 @@ const textEl = document.getElementById('text')
 const speedEl = document.getElementById('speed')
 const text = 'I Love Programing!'
 let idx = 1
-let speed = 300 / speedEl.ariaValueMax
+let speed = 300 / speedEl.value
 
  writeText()
 

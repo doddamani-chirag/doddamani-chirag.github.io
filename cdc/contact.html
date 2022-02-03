@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chirag Dental Clinic</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="favicon (1).ico">
+
+</head>
+<body class="body">
+    <header>
+        <ul>
+            <li><a href="index.html">home <i class="fa fa-home"></i></a></li>
+            <li><a href="about.html">about us  <i class="fa fa-globe"></i></a></li>
+            <li class="current"><a href="#contact.html">contact us  <i class="fa fa-phone"></i></a></li>
+            <li><a href="location.html">location  <i class="fa fa-map"></i></a></li>
+        </ul>
+    </header>
+<br><br>
+    <div class="form">
+        <h1>Book An Appointment</h1>
+        <form onsubmit="myFunction()">
+            <label for="name">Name</label><br>
+            <input type="text" id="myInput" onfocus="focusFunction()" onblur="blurFunction()" placeholder="Enter your Name Here" required>
+            <br><br>
+            <hr width="30px">
+            <br>
+            <label for="phone-number">Phone Number</label><br>
+            <input type="tel" id="myIput" onfocus="focuFunction()" onblur="bluFunction()"  placeholder="Enter Phone Number Here" required>
+            <br><br>
+            <p id="fun"></p>
+            <hr width="30px">
+            <br>
+            <label for="email">Email</label><br>
+            <input type="email">
+            <br><br>
+            <hr width="30px">
+            <br>
+            <textarea name="message" id="x" cols="30" rows="10" placeholder="Type Your Message Here"></textarea><br>
+            <button id="event" onclick="myFunction()" onsubmit="myForm" type="submit" class="btn">SEND</button>
+            <br>
+        </form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

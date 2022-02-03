@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+body {
+    margin: 0;
+    height: 130vh;
+    flex-direction: row;
+    font-family: 'Muli' , sans-serif;
+}
+
+/* HEADER */
+
+header {
+    background: linear-gradient(#780206,#061161);
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #3cbfe7 solid 1px ;
+}
+
+header a, a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px;
+}
+
+
+header .highlight, header .current a{
+    color: #e74c3c;
+    font-weight: bold;
+    font-size: larger;
+}
+
+header a:hover, a:hover {
+    color: #ccc;
+    font-weight: bold;
+}
+
+/* expanding cards */
+
+.container-x {
+    display: flex;
+    width: 90vw;
+}
+
+.panel {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 10px;
+    position: relative;
+    transition: flex 0.7s ease-in;
+    -webkit-transition: all 700ms ease-in;
+}
+
+.panel h3 {
+    font-size: 24px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+}
+
+.panel.active {
+    flex: 5;
+}
+.panel.active h3 {
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
+
+@media (max-width:480px ) {
+    .container {
+        width: 100vw;
+    }
+
+    .panel :nth-of-type(4),
+    .panel :nth-of-type(5) {
+        display: none;
+    }
+}
+
+/* MAIN HEADING */
+.heading {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: linear-gradient(#009FFF, #ec2F4B);
+}
+
+.heading h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.body {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn{
+    background-color: #061161;
+    border: none;
+    margin: 10px 20px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: bottom;
+    width: 100px;
+    color: #fff;
+}
+
+.btn:hover{
+    background-color: aliceblue;
+    color: #000;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.form {
+    border: 1px solid #000;
+    width: 30%;
+    height: 100vh;
+    margin-right: 35%;
+    margin-left: 35%;
+    background: linear-gradient(#03001e, #7303c0, #ec38bc, #fdeff9);
+    color: #ffffff;
+}
+
+input {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+}
+

@@ -1,0 +1,20 @@
+.footer-blurb {
+    background-color: #47b9ff;
+    padding: 30px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.footer-blurb h3 {
+    color: #007bff;
+}
+
+.footer-blurb-item {
+    padding: 10px 0;
+}
+
+.copyright {
+    text-align: center;
+    padding: 30px 0;
+    color: #007bff;
+}

@@ -1,0 +1,107 @@
+
+.navbar {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+#home {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.home {
+    background: url(https://assets.weforum.org/article/image/Gt3_maI3Pg1p3LCdz686W_z41IEvOy6elJNQmu_oRLc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: end;
+}
+
+.shaded {
+    background: rgba(0, 0, 0, 0.1);
+    height: 100vh;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+}
+
+ul {
+    align-items: center;
+}
+
+.intro::first-letter {
+    color: #00ff0d;
+    font-size: 200%;
+}
+
+.d-inline-block {
+    width: 59px;
+}
+
+#trend {
+    height: 100vh;
+    overflow: hidden;
+}
+
+#impact {
+    height: 100vh;
+    overflow: hidden;
+}
+
+#about {
+    height: 100vh;
+    overflow: hidden;
+}
+
+ /* SMALL DEVICES - LANDSCAPE PHONES */
+ @media (max-width: 320px)  {
+    body {
+        display: none;
+    }
+ }
+
+/* MEDIUM DEVICES - TABLETS */
+@media (max-width: 768px) {
+    
+}
+
+/* LARGE DEVICES - DESKTOP */
+@media (max-width: 992px) {
+    
+}
+
+/* EXTRA LARGE DEVICES - LARGE DESKTOP */
+@media (min-width: 1000px) {
+    .main {
+        margin-left: 800px;
+    }
+}
+
+.short , .long {
+    flex: 1;
+    text-align: center;
+    padding: 3px;
+}
+
+p.intro {
+    color: #fff;
+}
+
+.footer-blurb {
+    background: rgba(0, 0, 7, 0.3);
+}
+
+.rotate {
+    animation: rotation 8s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

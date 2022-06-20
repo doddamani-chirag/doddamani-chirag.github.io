@@ -1,0 +1,70 @@
+
+
+.card-1 {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBzNTStE0wad3wmQ3siw1rUqiecv37o41ihOtFpRvYVw&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-2 {
+    background: url(https://cdn.pixabay.com/photo/2015/04/20/21/42/blood-732298__340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-3 {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3suQpE34548VmwbfGs-kY3NYQH8aProrg-Q&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#about {
+    background: linear-gradient(to right ,#c31432,#240b36);
+}
+
+section {
+    height: 100vh;
+}
+
+.cont-2 {
+    border-radius: 5px;
+    
+}
+
+
+
+@media (max-width: 575.98px) {
+     .pa-1, .a, .b {
+        display: none;
+    }
+
+    .d-flex {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 991.98px) {
+    section {
+        height: auto;
+    }
+
+    .col-md-4 {
+        min-width: 60vh;
+    }
+}
+
+
+@media (max-width: 537.98px) {
+    .pa-1, .a, .b {
+       display: none;
+   }
+
+   .d-flex {
+       flex-wrap: wrap;
+   }
+}
+
+.modal-lg {
+    border-radius: 30px;
+}
+

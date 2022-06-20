@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Donation</title>
+
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark py-3">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Donate Blood
+                 <span class="text-danger"><i class="fa fa-tint" aria-hidden="true"></i></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+
+                  <li class="nav-item px-2">
+                    <a class="nav-link active" href="index.html#about">About</a>
+                  </li>
+
+                  <li class="nav-item px-2">
+                    <a class="nav-link" href="impact.html">Impacts</a>
+                  </li>
+
+                  <li class="nav-item px-2">
+                    <a class="nav-link" href="importance.html">Importance</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="card">
+                        <div class="card-header text-center text-danger">
+                            <h1>Blood Donation</h1>
+                        </div>
+                        <div class="card-body bg-dark">
+                            <blockquote class=" p-2 text-danger">Blood donation is a voluntary procedure that can help save the lives of others. There are several types of blood donation. Each type helps meet different medical needs.
+                            <br><br><br class="b">
+                            This is the most common type of blood donation, during which you donate about a pint (about half a liter) of whole blood. The blood is then separated into its components — red cells, plasma and sometimes platelets.
+                            <br><br><br class="a">
+                            <div class="pa-1">During apheresis, you are hooked up to a machine that can collect and separate blood components, including red cells, plasma and platelets, and return unused components back to you.</div>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center text-white mb-3 card-1">
+                        <div class="card-body">
+                            <h3></h3>
+                            <h4 class="display-4">
+                                <i class="fa fa-none" aria-hidden="true"></i> 
+                            </h4>
+                            <a href="#about" class="btn btn-outline-light btn-sm">About</a>
+                        </div>
+                    </div>
+                    <div class="card text-center text-white mb-3 card-2">
+                        <div class="card-body">
+                            <h3></h3>
+                            <h4 class="display-4">
+                                <i class="fa fa-none" aria-hidden="true"></i>
+                            </h4>
+                            <a href="importance.html" class="btn btn-outline-light btn-sm">Importance</a>
+                        </div>
+                    </div>
+                    <div class="card text-center text-white mb-3 card-3">
+                        <div class="card-body">
+                            <h3></h3>
+                            <h4 class="display-4">
+                                <i class="fa fa-none" aria-hidden="true"></i>
+                            </h4>
+                            <a href="impact.html" class="btn btn-outline-light btn-sm">Impacts</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+    <section id="about">
+        <br>
+        <div class="container pb-3 mt-3">
+            <div class="d-flex">
+                <div class="col-md-8 bg-light cont-2 mx-3 p-5 ">
+                    <h3 class="display-4">About Blood Donation</h3>
+                    <p>Healthy adults (18-75 years) who meet donation eligibility criteria can donate blood. The procedure is safe and relatively painless.During a regular donation, you will give around 470ml of whole blood. This is about 8% of the average adult’s blood volume.The body replaces this volume within 24 to 48 hours, and replenishes red blood cells in 10 to 12 weeks.</p>
+    
+                    <p class="mt-2">
+                        Blood donations can yield a variety of blood products, including red cells, platelets and plasma. You may be most familiar with the typical whole blood donation drive seen at workplaces, schools and community events, but there are a few other ways to help give more life through the Red Cross.
+                    </p>
+                    
+                    <p class="mt-2">
+                        You can donate whole blood every 12 weeks, but you can donate plasma every 2 weeks.All blood that is donated is screened for blood-borne diseases (such as hepatitis, syphilis and HIV).
+                    </p>
+                </div>
+                <div class="col-md-4 pr-5">
+                    <div class="m-3 py-1 text-dark">
+                        <div class="bg-dark cont-2 m-3 p-5">
+                            <h4 class="text-light pb-5 pr-1 mb-5">Book an Appointment to Donate Blood</h4>
+                            <button class="btn btn-outline-danger btn-block btn-lg mt-5 mb-5"  data-toggle="modal" data-target="#donateNowModal">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade" id="donateNowModal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-white">
+                    <h5 class="modal-title">Donate Now</h5>
+                    <button class="close btn-outline-light" data-dismiss="modal">
+                        <span class="text-danger">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Phone Number</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Address</label>
+                            <textarea name="" class="form-control"></textarea>
+                        </div>
+                       
+                        <button type="submit" class="btn btn-dark btn-block btn-outline-light" data-dismiss="modal" data-toggle="modal" data-target="#actionModal">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="actionModal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-white">
+                   
+                    <button class="close btn-outline-light" data-dismiss="modal">
+                        <span class="text-danger">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h2 class="display-2">Thank You</h2>
+                    <small class="display-4 mb-5">Our agent will call you soon</small>
+                    <br>
+                    <div class="text-right">
+                        <a href="https://www.narayanseva.org/donations?utm_source=google&utm_network=Search&medium=cpc&matchtype=b&device=c&campaign_id=6702290580&adgroup_id=104218198542&keyword=donation&creative=461357921177&placement=&gclid=CjwKCAjw77WVBhBuEiwAJ-YoJF2HOrMcWsYDLaUg3_B0oLmvoOhWyUKsbkrmxhvYkH-3ZshfRjqmpxoCfTQQAvD_BwE&gclid=CjwKCAjw77WVBhBuEiwAJ-YoJF2HOrMcWsYDLaUg3_B0oLmvoOhWyUKsbkrmxhvYkH-3ZshfRjqmpxoCfTQQAvD_BwE" class="text-info">More Details...</a>
+
+                    </div>
+                    <button type="submit" class="btn btn-dark btn-block btn-outline-light mt-5 pt-1" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer id="main-footer" class="bg-dark text-white mt-5 p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="lead text-center">
+                        Copyright &copy;
+                        <span id="year"></span>
+                        Blood Donation Camps
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JQUERY | POPPER | JAVASCRIPT -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+
+    <script>
+        //GET THE CURRENT YEAR FOR THE COPYRIGHT
+        $('#year').text(new Date().getFullYear());
+    </script>
+
+</body>
+
+</html>

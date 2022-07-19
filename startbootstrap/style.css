@@ -1,0 +1,22 @@
+.img {
+    border-radius: 10%;
+    width: 370px;
+}
+
+footer {
+    justify-content: center;
+    align-items: center;
+}
+
+a.btn {
+    border-radius: 100%;
+    
+}
+
+.d-flex {
+    justify-content: space-around;
+}
+
+.footer-2 {
+    background-color: #000;
+}

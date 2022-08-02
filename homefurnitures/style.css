@@ -1,0 +1,19 @@
+        /* MEDIUM DEVICES - TABLETS */
+        @media (min-width: 768px) {
+            .cont {
+                display: flex;
+            }
+            
+        }
+
+
+        .card-img-top {
+            height: 200px;
+        }
+
+        #cart {
+            height: auto;
+            
+        }
+        
+
